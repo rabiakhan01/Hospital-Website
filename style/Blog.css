@@ -1,0 +1,91 @@
+.Blog{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: grid;
+}
+.blog-latest{
+    font-size: 60px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 57, 70);
+}
+.blog-head{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #007bff;
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 5%;
+}
+.blogs{
+    height: auto;
+    width: 28.5%;
+    background-color: white;
+    box-shadow: 0 4px 30px rgba(58, 53, 53, 0.507);
+    border-radius: 20px;
+    transition: transform 0.5s ease; 
+
+}
+.blogs:hover{
+    transform: translateY(-30px);
+}
+.blog-image-style{
+    height: 200px;
+}
+.blog-image-style img{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+}
+.date-style{
+    font-size: 18px;
+    padding-top: 30px;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.555);
+}
+.blog-content-styling{
+    font-size: 27px;
+    color: rgb(7, 57, 70);
+    font-weight: 500;
+    display: block;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+.btn-group-style{
+    display: flex;
+    gap: 50px;
+}
+.btn-styling{
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 900;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons-style{
+    display: flex;
+    gap: 10px;
+}
+/* Gallery*/
+.gallery-div{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-div img{
+    border-radius: 5%;
+}

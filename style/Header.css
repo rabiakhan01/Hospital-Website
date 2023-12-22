@@ -1,0 +1,67 @@
+.health-icon{
+    color: rgb(7, 57, 70);
+    height: 30px;
+    width: 30px; 
+}
+.Link-style{
+    text-decoration: none;
+    color: rgb(7, 57, 70);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    gap: 10px;
+    background-color: rgb(147, 184, 248);
+}
+.hospital-name{
+    color: rgb(7, 57, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0px;
+}
+.menu-items{
+    list-style-type: none;
+    display: flex;
+    gap: 70px;   
+    align-items: center;
+    padding-left: 10%;
+}
+.menu-items li{
+    color: rgb(7, 57, 70);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+}
+.page-button-styling{
+    background-color: rgb(147, 184, 248);
+    border-style: none;
+    cursor: pointer;
+    color: rgb(7, 57, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown-content a{
+    color: rgb(7, 57, 70);
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    
+}
+.dropdown-styling :focus-within .dropdown-content{
+    display: block;
+    align-items: center;
+    position: absolute;
+    margin-top: 40px;
+   
+}
+.search-style{
+    color: rgb(7, 57, 70);
+    font-size: 25px;
+}

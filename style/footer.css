@@ -1,0 +1,159 @@
+.footer {
+    height: auto;
+  }
+  
+  .footer-triangle-div {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .footer-triangle-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: rgb(147, 184, 248);
+    z-index: -1;
+  }
+  
+  .footer-triangle-div::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 210px;
+    height: 125px;
+    background-color: none;
+    border-radius: 0 0 50% 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  
+  .footer-circle-div {
+    height: auto;
+    background-color: rgb(147, 184, 248);
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .footer img {
+    position: absolute;
+    top: -180px;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+
+  }
+
+  .image-text {
+    position: absolute;
+    top: -40%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: rgb(59, 68, 202);
+    font-size: 30px;
+    font-weight: 600;
+    z-index: 2;
+  }
+  .image-icon{
+    position: absolute;
+    top: -55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    height: 50px;
+    color: rgb(59, 68, 202);
+  }
+  .information{
+    display: flex;
+    padding-top: 12%;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+  .div-1{
+    width: 35%;
+    padding-left: 6%;
+  }
+.div-2{
+    width: 20%;
+  }
+.div-3{
+    width: 20%;
+
+}
+.div-4{
+    width: 30%;
+}
+.info-list{
+    list-style-type: none;
+    color: rgb(7, 57, 70);
+}
+.div-1 h3{
+    color: rgb(7, 57, 70);
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info-list li{
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.info-2-style{
+   list-style: none; 
+}
+.info-2-style li{
+    padding-top: 10px;
+}
+.info-2-style li a{
+    text-decoration: none;
+    color: rgb(7, 57, 70);
+    font-size: 20px;
+    font-weight: 500;
+}
+.div-4 h2{
+    font-weight: 700;
+    color: rgb(7, 57, 70);
+}
+.div-4 p{
+    color: rgb(7, 57, 70);
+    font-size: 19px;
+
+}
+.email-field-style{
+    background-color: rgb(147, 184, 248);
+    height: 60px;
+    width: 80%;
+    border-radius: 30px;
+    border:2px solid rgb(31, 101, 221); 
+    font-size: 18px;
+}
+.footer-last{
+    height: 100px;
+    background-color: rgb(31, 101, 221); 
+}
+.links-icon{
+    margin-left: 10%;
+    margin-top: 40px;
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+    color: white;
+    float: left;
+}
+.fa-brands{
+    color: rgb(186, 201, 214);
+}
+.rights{
+    color: rgb(186, 201, 214);
+    float: right;
+    padding-top: 40px;
+    margin-right: 8%;
+}

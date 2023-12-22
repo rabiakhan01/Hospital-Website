@@ -1,0 +1,46 @@
+.Review{
+    margin-top: 8%;
+    text-align: center;
+}
+.head-style{
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(11, 82, 102);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-head-style{
+    color: rgb(76, 138, 231);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.reviews{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.person-img{
+    height: 100px;
+    width: 100px;
+}
+.topo{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.topo h3{
+    color: rgb(7, 57, 70);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topo span{
+    color: rgb(7, 57, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.star-style{
+    color: rgb(31, 31, 83);
+}

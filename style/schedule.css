@@ -1,0 +1,38 @@
+.schedual{
+    margin-left: 10%;
+    margin-top: 15%;
+    width: 80%;
+    background-image: linear-gradient(to right, rgb(93, 137, 209) , rgb(207, 215, 226));
+    height: 350px;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cta-image{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: -120px; /* Adjust this value as needed */
+    left: 50%;
+}
+.img-div{
+    top: -10px;
+    width: 50%;
+}
+.text-div{
+    width: 50%;
+    margin: 50px;
+}
+.text-div h2{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+}
+.text-div p{
+    font-size: 25px;
+    font-weight: 600;
+    color:  rgb(7, 57, 70);
+
+}

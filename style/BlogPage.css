@@ -1,0 +1,30 @@
+.last-blog-div{
+    background-image: url('../images/banner_img_3.png');
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    border-radius: 30px;
+    height: 600px;
+    background-position: right;
+    width: 70%;
+    margin-top: 10%;
+    position: relative;
+    box-shadow: 0 4px 30px rgba(44, 43, 43, 0.1);
+    margin-left: 15%;
+
+}
+.last-blog-content{
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.head{
+    font-size: 50px;
+    color: rgb(16, 116, 141);
+    font-weight: 700;
+   
+}
+.para{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(131, 135, 136);
+}

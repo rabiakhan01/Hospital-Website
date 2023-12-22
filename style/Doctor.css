@@ -1,0 +1,111 @@
+.background-styling-doctor {
+    background-image: url('../images/banner_img (1).png');
+      background-size: 45% 100%;
+      height:  500px;
+      background-color: rgb(147, 184, 248);
+      background-position: right;
+      background-repeat: no-repeat;
+    }
+    .header-style{
+        margin-top: 5%;
+        font-size: 37px;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(7, 57, 70);
+    }
+    .para-style{
+        font-size: 20px;
+    }
+    .doctors{
+        margin-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        gap: 20px;
+    }
+    .head-blog{
+        background-color: rgb(147, 184, 248);
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+
+    }
+    .dep-name{
+        background-color:#307bc4;
+        width: 90%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius:30px;
+        border-top-left-radius: 30px;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: bisque;
+
+    }
+    .doctor-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+    }
+    .dr-name{
+        font-size: 23px;
+        font-weight: 600;
+        color: rgb(7, 57, 70);
+
+    }
+    .dr-specialist{
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(7, 57, 70);
+
+    }
+    .dr-content{
+        font-size: 17px;
+        color: rgb(115, 119, 119);
+        text-align: center;
+        margin: 10%;
+    }
+    .buttons-style{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+.our-doctor{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5%;
+}
+.last-div{
+    background-image: url('../images/banner_bg_2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 75% 100%;
+    border-radius: 30px;
+    height: 720px;
+    background-position: center;
+    width: 100%;
+    margin-top: 5%;
+    position: sticky;
+    
+}
+.back-div-2{
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 20%;
+}
+.back-heading-1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+.back-heading-2{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
